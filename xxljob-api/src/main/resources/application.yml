@@ -1,0 +1,16 @@
+
+server:
+  port: 1003
+# 参数说明 xxl-job 官方文档 https://www.xuxueli.com/xxl-job/
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:1001/xxl-job-admin
+    executor:
+      appname: xxljob-example-api
+      address:
+      ip:
+      port: 9999
+      logpath:
+      logretentiondays: 30
+    accessToken:
